@@ -3,38 +3,35 @@
   gap: 1rem;
   justify-content: center;
 }
+.btn-sumar {
+  background-color: #9595ff;
+  color: #000000;
+  border: 2px solid #015fcc;
+}
+.btn-sumar:hover {
+  background-color: #015fcc;
+  border: 2px solid #9595ff;
+  transition: ease-in-out 0.3s;
+}
+
+.btn-restar {
+  background-color: #ffd587;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.btn-restar:hover {
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #ffd587;
+  transition: ease-in-out 0.3s;
+}
 
 button {
   border-radius: 20px;
-  border: 2px solid #015fcc;
   padding: 1rem;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #9595ff;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-/*#FFD587
-#000000*/

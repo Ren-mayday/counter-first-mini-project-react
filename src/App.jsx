@@ -15,8 +15,12 @@ function App() {
     <>
       <ShowCount count={count}></ShowCount>
       <div className="buttons">
-        <Button onClick={sumClick}>Sumar</Button>
-        <Button onClick={decrementClick}>Restar</Button>
+        <Button className="btn-sumar" onClick={sumClick}>
+          Sumar
+        </Button>
+        <Button className="btn-restar" onClick={decrementClick}>
+          Restar
+        </Button>
       </div>
     </>
   );
